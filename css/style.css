@@ -471,6 +471,11 @@ a, a:hover {
   border-radius: 20px;
   backdrop-filter: blur(15px);
 }
+#gallery .gallery__images a :hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px;
+}
 
 #locate .title {
   text-align: center;
