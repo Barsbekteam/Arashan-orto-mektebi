@@ -195,6 +195,11 @@
         background: linear-gradient(92.15deg, #433AA9 -7.58%, #67AE9F 122.58%);
         border-radius: 20px;
         backdrop-filter: blur(15px);
+        :hover{
+          transition: .4s;
+          transform: scale(1.1);
+          box-shadow: 10px 10px 5px;
+        }
       }
     }
   }
